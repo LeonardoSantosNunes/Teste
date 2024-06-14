@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <title>
+         Formulario Felino 
+      </title>
+   <meta charset="utf-8">
+   <meta name="autor" content="Leonardo Nunes">
+   <meta name="assunto" content="Formulario de pesquisa para gatos">
+   <link rel="icon" href="/img/18.png">
+   <link rel="stylesheet" href="/eatilos.css" type="text/css">
+  </head>
+  <body>
+      
+      <h1>Formulario Felino🐈</h1>
+        <nav aria-label="Navegaçao Primria">
+           <ul id="lista">
+              <li>
+                <a href="/fotos_de_gato.html">Fotos De Gatos</a>
+              </li> 
+              <li>
+                <a href="/inedex.html">Home</a>
+              </li>
+           </ul>
+        </nav>
+      <hr>
+      <main>
+        <article id="Formulario">
+            <h2>Formulario felino</h2>
+            <p>Responda essa pesuqisa e nos ajudea entender mais
+               sobre esses bichinhos lindos</p>
+            <p>PS: Se você quiser, pode anexar uma foto do seu gato
+                par fazer parte de nossa galeria.</p>
+                <form action="https://s3.amazonaws.com/freecodecamp/relaxing-cat.jpg">
+                <fieldset>
+                    <legend>
+                        Informaçoes Sobre Seu Gato🤔
+                    </legend>
+                    <label for="nomeGato">Qual o Nome do seu Gato?</label>
+                    <input type="text" name="nomeGato"
+                    id="nomeGato" placeholder="Garfield" 
+                    autocomplete="on" required autofocus> 
+                    <p> 
+                        <label for="idadeGato">Qual idade do seu gato?</label>
+                        <input type="number" name="idadeGato" id="idadeGato"
+                        min= "1" max="20" step="1" value="1" required>
+                    </p>                      
+                    <p>Seu Gato(s) fica mai dentro de casa ou na rua?</p>
+                    <p>
+                        <input type="radio" name="casaRua" id="casa" 
+                        value="casa">
+                        <label for="casa">Fica em casa</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="casaRua" id="rua"
+                        value="rua">
+                        <label for="rua">Sai na Rua</label>
+                    </p>
+                    <P>Qual é a personalidade do seu gato?
+                    </P>
+                    <p>
+                        <input type="checkbox" name="personalidade"
+                         id="manhoso">
+                        <label for="manhoso">Manhoso</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="personalidade"
+                         id="preguiçoso">
+                        <label for="preguiçoso">Preguiçoso</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="personalidade"
+                         id="espoleta">
+                        <label for="espoleta">Espoleta</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="personalidade"
+                         id="desconfiavel">
+                        <label for="desconfiavel">Desconfiavel</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Seu gato na nossa Galeria!🤩
+                    </legend>
+                    <p>Anexa uma foto do seu gato para nossa equipe por na nossa Galeria</p>
+                    <input type="file" name="anexoFoto" id="anexoFoto">
+                    <p>
+                        <label for="menssagem">Legenda da Foto</label>
+                    </p>
+                    <textarea name="menssagem" id="menssagem" cols="50" rows="10"
+                        placeholder="Insira a Legenda da sua Foto aqui">
+                    </textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Redefinir</button>
+                </form>
+        </article> 
+      </main>
+      <hr>
+      <p><a href="/formulario_feline.html">Voltar ao Topo.</a>
+      </p>
+      <footer>
+         <p>
+            &lt; &copy; Copyringht APP Meu Gatinho &gt;
+         </p>
+      </footer>
+
+   </body>
+</html> 

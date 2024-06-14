@@ -1,0 +1,97 @@
+     @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+html{
+     font-family: Spicy Rice,monospace;
+}
+h1 {
+     text-align: center;
+     color: blueviolet;
+} 
+/* Menu de navegaçao */
+nav {
+     text-align: center;
+}
+nav a {
+     color:#0a0a23;
+     text-decoration: none;
+}
+nav a:hover{
+     background-color:#0a0a23;
+     color:blueviolet;
+     padding: 3px;
+     border-radius: 10px;
+
+
+}
+ #lista {
+      list-style:none;
+}
+ #lista {
+      margin: 20px;;
+}
+a:hover { 
+      color: gainsboro;
+      background-color: #000000;
+      border-radius: 10px;
+      padding: 3px;
+}
+ #linkFoto:hover {
+      background-color: aliceblue;
+}
+/*Alinhando Elementos - Galeria*/
+img {
+      max-width: 280px;
+      height: auto;
+}
+ #galeria {
+      display: flex;
+      width: 50%;
+      margin: 0 auto;
+      justify-content: center;
+}
+figcaption{
+    text-align: center;
+}
+      @media ( max-width: 650px){
+ #galeria{
+      flex-direction: column;
+      align-items: center;
+         }
+}
+/*Tamanho de fonte do RODAPE*/
+footer{
+    font-size: 0.75em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
